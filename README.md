@@ -1,6 +1,7 @@
 # ML/AI Engineering Foundations Notes
 
-Notes for the Machine Learning / AI Engineering career path. Follow the learning order below for a clean flow.
+Notes for the Machine Learning / AI Engineering career path. 
+Follow the learning order below for a clean flow.
 
 **Start here:** [00-START-HERE.md](00-START-HERE.md)
 
