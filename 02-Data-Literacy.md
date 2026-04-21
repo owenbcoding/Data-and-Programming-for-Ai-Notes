@@ -142,3 +142,26 @@ The engineers made their arguments in favor of postponing the launch using, in p
 The Challenger story is a stark reminder that how we show data can carry life-or-death weight. The figure below is a simple space-themed illustration to pair with this case.
 
 ![Rocket illustration](images/high-stakes-visualizations/rocketship.svg)
+
+# The Challenger Visualizations
+
+Before we pick apart this visualization, it is worth saying that hindsight is 20/20. If it were as simple as “obviously, the O-rings were going to fail,” then the Challenger would never have been launched. This event was the culmination of several years of context, not an isolated incident, so many other factors were at play.
+
+Following the incident, a Presidential Commission was initiated to investigate the causes of the catastrophe. The commission determined that the disaster was directly the result of O-ring failure. However, the commission also concluded that management from both NASA and Morton Thiokol (the company NASA had contracted to design and maintain its rocket boosters) had ignored evidence that indicated significant risk of O-ring failure at low launch temperatures. Additionally, the commission noted that NASA and Morton Thiokol had failed to adequately test the equipment they were using, despite consistent requests from engineers for several years preceding the incident.
+
+In short, it is unlikely that this particular visualization played a pivotal role in the decision-making conversation that ended with management deciding to launch as scheduled.
+
+From a data literacy standpoint, though, we can definitely see how a better visualization would make the trend of the data more apparent. The engineers had the data to know that O-rings began to fail at lower temperatures. But their visualization was not created in a way that made that danger clear.
+
+The visualization of rocket launches was organized by date, which made it hard to see the pattern of launch failures at lower temperatures (see the top-right image). When Edward Tufte later organized the rockets by temperature, that pattern became much more obvious (see the lower image). Additionally, including all of the rocket symbols for decoration did not make the argument clearer, but instead added distracting visuals to the page.
+
+The visualization would have been easier to interpret with fewer distracting lines and a more direct link between temperature and launch failures.
+
+While most of us will (thankfully) never be in the position of making or interpreting life-or-death data visualizations, good data literacy helps us make informed decisions every day. Should I bring an umbrella? Should I postpone my trip to avoid public health risks? Should I buy stock in Blockbuster? Whatever the questions, improving our data literacy can help us reach the answers.
+
+### Image
+
+Tufte’s reorganization of the launch data (temperature on one axis, clearer grouping) illustrates how the same facts can read very differently depending on layout—compare the discussion above with the figure below.
+
+![Tufte-style Challenger launch data visualization](images/challenger-visualizations/tufte-challenger-viz1.svg)
+
