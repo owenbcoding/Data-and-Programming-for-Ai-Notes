@@ -38,3 +38,58 @@ Part of practicing good data literacy means asking:
 
 - Do we have sufficient data to answer the question at hand?
 - Can my data answer my exact question?
+
+### Image
+
+These two questions are easier to act on when you can *see* where data is thin or missing. The figure below is one way to picture that gap.
+
+![Illustration related to data gaps and asking whether your data fits the question](images/data-gaps/1606.svg)
+
+# Addressing Bias
+
+One question the data on heart attacks might prompt is: “Why did the trials have only 38% female participation?”
+
+In part, for historical reasons: in the 1950s, pregnant women in Europe and Canada were prescribed a drug called thalidomide for morning sickness. The drug caused severe birth defects and was withdrawn from the market. As a result, in 1977 the US Food and Drug Administration (FDA) recommended excluding from early-stage clinical trials all women who could become pregnant. While intended to protect women, the recommendation put them at risk in a different way, by limiting our knowledge of how drugs affect women’s bodies.
+
+The FDA reversed these recommendations in the 1990s, and today government-funded clinical trials must include women and other minorities. Yet trials do not need to include minority groups at representative levels, and the majority of drug trials in the US are not government-funded.
+
+In this case, participation might also be shaped by media representation. In typical TV or movie heart attacks, we almost always see a man clutching his arm or chest. Not only do women have heart attacks too (we would not know it from watching TV), they rarely experience chest pain as a symptom.
+
+(In fact, in the top 20 “heart attack” movies\* on IMDb, only two heart attacks happen to women: one is fake, and the other is a disguised murder. So… zero real heart attacks in women in a list of top 20 “heart attack” movies!)
+
+It might seem like a stretch from data literacy to TV heart attacks, but sound science means examining bias and controlling variables wherever possible.
+
+Part of practicing good data literacy means asking:
+
+- Who participated in the data?
+- Who is left out?
+- Who made the data?
+
+\*Top movies with the keyword “heart attack” where a heart attack is actually mentioned or shown in the movie—not *The Exorcist*, which is on that list because people have had heart attacks while watching it… yikes!
+
+### Image
+
+The timeline below lines up key moments in this story—from thalidomide and the 1977 FDA guidance through later shifts in trial policy—so you can see how policy and data collection evolved together.
+
+![Timeline of clinical trial policy and related history](images/addressing-bias/timeline.svg)
+
+# What is Statistics?
+
+Now let’s look at a case study that showcases the value of data literacy in the legal system.
+
+Big, amorphous injustices like hiring discrimination are hard to prove in court. Hiring discrimination is a pattern of biased behavior toward candidates. That bias results in qualified candidates not being hired because of their traits.
+
+Throughout the 1900s, companies in the US were able to justify hiring on a case-by-case basis. After all, it is legal to hire or not hire candidates based in part on soft qualities such as “fit” and “office culture.” But if those qualities mask factors like a candidate’s race, gender, or religion, the company has broken anti-discrimination laws.
+
+Usually, a lawyer would have to show many individual cases proving a company was discriminatory. Instead, lawyer Elaine W. Shoben shifted the burden of proof to companies. How was she able to do this with data literacy? She used the power of statistics. Statistics helps us judge whether what we observe is likely due to random chance or to a systematic pattern.
+
+What does that actually mean? For example, you are more likely to see more cars on the road at 8 a.m. on Wednesday than at 8 a.m. on Sunday. That is not a random occurrence—the increase in traffic lines up with rush hour and standard business hours. It is statistically more likely to see many cars during rush hour than at other times.
+
+We’ll see in the next exercise exactly how Elaine Shoben used statistics to change how we assess bias in hiring.
+
+### Image
+
+Traffic can look messy, yet it still follows recurring timing and structure. The clip below is a simple visual cousin of the rush-hour example: statistics is partly about separating a pattern like that from pure coincidence.
+
+![Cars on a road, suggesting heavier traffic at some times than others](images/statistics/cars-moving.gif)
+
