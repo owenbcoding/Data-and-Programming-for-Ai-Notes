@@ -1,12 +1,27 @@
 # Welcome to Data Literacy
+
 ## Establishing how to think about data will set you up for success when you start analyzing it.
-### Data Literacy topics
+
+### How this note is organized (Codecademy)
+
+The sections below follow the same sequence as Codecademy’s Data Literacy material:
+
+1. [Data Gaps](#data-gaps)
+2. [Addressing Bias](#addressing-bias)
+3. [What is Statistics?](#what-is-statistics)
+4. [Statistics At Work](#statistics-at-work)
+5. [High Stakes Visualizations](#high-stakes-visualizations)
+6. [The Challenger Visualizations](#the-challenger-visualizations)
+7. [Numeracy](#numeracy)
+
+### Data literacy topics
 
 Case studies about what can go wrong – and right in data projects.
 Basic assumptions of working with different types of data.
 How data types affect the analysis.
 Foundational statistical ideas.
 Key ideas behind good (and misleading) visualizations.
+
 After this unit, you will be able to:
 
 Spot messy data and make a plan to clean it.
@@ -16,14 +31,17 @@ Spot the difference between good and bad visualizations.
 Make a plan for how to transform a bad visualization into a good one.
 Reference classic case studies involving perfect and poor data analysis.
 
-# Welcome to Data Literacy
-## Why is data literacy important?
+### Why is data literacy important?
+
 - How data literacy helped 19th-century doctors end cholera epidemics and discover the root cause of the disease.
-- Data Litreracy helped reveal discrimination in hard-to-measure settings like hiring practices and advance medical knowledge by improving clinical trial data quality.
+- Data literacy helped reveal discrimination in hard-to-measure settings like hiring practices and advance medical knowledge by improving clinical trial data quality.
 - Data literacy also helps us to produce readable work for other people. As we’ll see, even when good data is there, the inability to tell a clear story can have dire consequences.
 - Data is an incredibly powerful tool.
 
-Case Studies in Data Literacy
+Case studies in data literacy use real examples (health, hiring, law, and spaceflight) so you can practice asking critical questions about data quality, bias, statistics, and visualization—themes that show up throughout the outline above.
+
+---
+
 # Data Gaps
 
 Garbage in, garbage out is a data-world phrase that means our data-driven conclusions are only as strong, robust, and well-supported as the data behind them.
@@ -93,7 +111,7 @@ Traffic can look messy, yet it still follows recurring timing and structure. The
 
 ![Cars on a road, suggesting heavier traffic at some times than others](images/statistics/cars-moving.gif)
 
-# Statistics at Work
+# Statistics At Work
 
 So how did Elaine Shoben show that discrimination was at play in hiring decisions? It is a bit heavy on the legal jargon, but we can break it down to see how it works.
 
@@ -165,3 +183,37 @@ Tufte’s reorganization of the launch data (temperature on one axis, clearer gr
 
 ![Tufte-style Challenger launch data visualization](images/challenger-visualizations/tufte-challenger-viz1.svg)
 
+# Numeracy
+
+**Numeracy** is the comfort and skill you use when working with numbers in context—not just doing arithmetic, but knowing *what* a number means and whether it is the right number for the question. It supports everything earlier in this note: interpreting headlines about percentages in trials, judging whether a gap in data is large or small, and reading axes and scales on charts without being misled.
+
+In practice, numeracy shows up when you check whether a fraction and a percent tell the same story, estimate orders of magnitude, notice when units are missing or inconsistent, and ask whether a claim is based on counts, rates, or both. Pair those habits with the questions from the **Data Gaps** and **Addressing Bias** sections, and you have a solid foundation for the statistical and visualization ideas that follow.
+
+## Causal Analysis and John Snow’s cholera theory: Part 1
+
+In the world of data, we’ll hear time and time again that “correlation does not imply causation.” In other words, two variables can move together without one *causing* the other.
+
+A “causal link” means evidence that one factor actually brings about or materially changes another—not merely that both rose or fell together. One of the most important applications of this idea over the last few centuries has been epidemiology, the study of disease in populations. Establishing sound causal links has driven major advances in how we prevent and treat illness.
+
+Let’s take a look at one of the earliest instances of successful causal analysis in medicine, which starts with a man called John Snow. (Not the fantasy-famous Lord of the North, but a real nineteenth-century London doctor.)
+
+Until Dr. Snow’s work in the mid-nineteenth century, many people believed that cholera was caused by vapors—the “miasma” theory—rising from the burial grounds of plague victims from centuries earlier. That fit what people knew then, but cholera is actually a waterborne disease caused by bacteria found in sewage. It causes severe dehydration and, without treatment, often killed more than half of those who became severely ill in historical outbreaks.
+
+By studying earlier cholera epidemics and organizing his data analysis around his hunch that cholera was waterborne, Dr. Snow was able to tie an 1854 cholera outbreak in London to a contaminated water pump—making a strong case for a causal link between contaminated water and cholera before germ theory was widely accepted.
+
+## Causal Analysis and John Snow's cholera theory: Part 2
+
+Dr. John Snow’s causal analysis breakthrough started with how he visualized his data: he organized cholera death records by location rather than by time, which was more common. He made a map, and discovered that the deaths centered around a water pump on Broad Street.
+
+From there, Dr. Snow used death records that seemed to contradict his theory to strengthen his explanation. For instance, a woman who died of cholera in a completely different neighborhood had just visited her aunt’s house near Broad Street and drunk water from the pump.
+
+Dr. Snow also found that a workhouse and a brewery near the pump both had few or no cholera deaths. Upon investigation, he learned that the workhouse had its own water supply, and that the brewers not only had access to a well at the brewery, but that they drank only malt liquor and never visited the Broad Street pump.
+
+Snow advised that the handle be taken off the Broad Street pump to prevent people from drinking the contaminated water. The handle was removed, and this action coincided with the end of that outbreak. The number of deaths was already trailing off (more than 75% of residents had left the area to avoid “choleric vapors”), but this public health intervention prevented the disease from recurring as people returned, and the epidemic ended.
+
+The built-in test cases helped Snow to isolate 
+variables
+Preview: Docs Loading link description
+ and prove that the key variable was that people who developed cholera had drunk water from the contaminated pump. From there, repeated studies of cholera and modern lab experiments have only confirmed the causal link he discovered.
+
+In modern lab science, we use controlled experiments to isolate variables and prove causation. Controlled experiments are often not possible outside of lab settings, though, so data scientists do the best they can to isolate and control variables and get comfortable working with some amount of error.
