@@ -201,6 +201,12 @@ Until Dr. Snow’s work in the mid-nineteenth century, many people believed that
 
 By studying earlier cholera epidemics and organizing his data analysis around his hunch that cholera was waterborne, Dr. Snow was able to tie an 1854 cholera outbreak in London to a contaminated water pump—making a strong case for a causal link between contaminated water and cholera before germ theory was widely accepted.
 
+### Image
+
+His famous map plots cholera deaths by location in Soho; the concentration around the Broad Street pump made the waterborne story visible in a way tables alone could not.
+
+![John Snow’s map of the 1854 Broad Street cholera outbreak, deaths shown by location](images/Snow-cholera-map-1.jpg)
+
 ## Causal Analysis and John Snow's cholera theory: Part 2
 
 Dr. John Snow’s causal analysis breakthrough started with how he visualized his data: he organized cholera death records by location rather than by time, which was more common. He made a map, and discovered that the deaths centered around a water pump on Broad Street.
@@ -217,3 +223,4 @@ Preview: Docs Loading link description
  and prove that the key variable was that people who developed cholera had drunk water from the contaminated pump. From there, repeated studies of cholera and modern lab experiments have only confirmed the causal link he discovered.
 
 In modern lab science, we use controlled experiments to isolate variables and prove causation. Controlled experiments are often not possible outside of lab settings, though, so data scientists do the best they can to isolate and control variables and get comfortable working with some amount of error.
+
