@@ -6,10 +6,28 @@
 
 ### 1) Introduction to Data
 
+From your course view, this subsection contains:
+
+- Informational: Welcome to Data Literacy
+- Lesson: Case Studies in Data Literacy
+- Article: Data Collection methods, ethics and free sources
+- Lesson: Data Types and Quality
+- Quiz: Data Types and Quality
+
+Detailed lesson notes for this subsection:
+
 - Data Gaps
 - Addressing Bias
 
 ### 2) Thinking about Data
+
+From your course structure:
+
+- Lesson: What is Statistics?
+- Article: Statistics At Work
+- Lesson: Numeracy
+
+Detailed lesson notes for this subsection:
 
 - What is Statistics?
 - Statistics At Work
@@ -17,10 +35,24 @@
 
 ### 3) Visualizing Data
 
+From your course structure:
+
+- Lesson: High Stakes Visualizations
+- Article: The Challenger Visualizations
+
+Detailed lesson notes for this subsection:
+
 - High Stakes Visualizations
 - The Challenger Visualizations
 
 ### 4) Analyzing Data
+
+From your course structure:
+
+- Lesson: Causal Analysis and John Snow's cholera theory: Part 1
+- Article: Causal Analysis and John Snow's cholera theory: Part 2
+
+Detailed lesson notes for this subsection:
 
 - Causal Analysis and John Snow's cholera theory: Part 1
 - Causal Analysis and John Snow's cholera theory: Part 2
