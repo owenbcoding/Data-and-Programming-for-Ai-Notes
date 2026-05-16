@@ -1,7 +1,7 @@
-# ML/AI Engineering Foundations Notes
+# Data and Programming Foundations for AI Notes
 
 <aside>
-💡 Machine Learning / AI Engineering career path.
+💡 Codecademy skill path: Data and Programming Foundations for AI.
 </aside>
 
 ## Start Here — Learning order
@@ -16,6 +16,6 @@ Use this sequence for a clean learning flow:
 6. **Python Pandas for ML/AI Engineers** — [`06-Python-Pandas.md`](06-Python-Pandas.md)
 7. **Exploratory Data Analysis in Python** — [`07-Exploratory-Data-Analysis.md`](07-Exploratory-Data-Analysis.md)
 8. **Math and Statistics for ML/AI Engineers** — [`08-Math-Statistics.md`](08-Math-Statistics.md)
-9. **ML/AI Engineering Foundations : Final Portfolio** — [`09-Final-Portfolio.md`](09-Final-Portfolio.md)
+9. **ML/AI Engineering Foundations: Final Portfolio** — [`09-Final-Portfolio.md`](09-Final-Portfolio.md)
 
 Image assets are stored beside the note they belong to and numbered in reading order.
