@@ -19,6 +19,44 @@ Detailed lesson notes for this subsection:
 - Data Gaps
 - Addressing Bias
 
+# Data Types and Quality
+
+## Lesson: Data Types and Quality
+
+### Introduction to Data Types and Quality
+- 
+
+### The Shape of Data
+- 
+
+### Variable Types
+- 
+
+### Dealing with Messy Data
+- 
+
+### Working with Missing Data
+- 
+
+### Accuracy
+- 
+
+### Validity
+- 
+
+### Representative Samples
+- 
+
+### Review of Data Types and Quality
+- Key takeaways:
+- What I still need to revise:
+
+## Quiz: Data Types and Quality
+- Score:
+- Questions missed:
+- Why I missed them:
+- Correct rule/concept:
+
 ### 2) Thinking about Data
 
 From your course structure:
