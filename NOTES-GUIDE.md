@@ -35,9 +35,9 @@ Copy/paste this for each lesson:
 - Fix:
 
 ### Quick checks
-- [ ] I can explain this in plain English.
-- [ ] I can solve a small problem without looking.
-- [ ] I can spot when to use this in a project.
+- [ ] Can I explain this in plain English?
+- [ ] Can I solve a small problem without looking?
+- [ ] Can I spot when to use this in a project?
 
 ### Next review date
 - YYYY-MM-DD
