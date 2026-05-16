@@ -1,69 +1,43 @@
 # Python Pandas for ML/AI Engineers
 
-This module transitions from plain Python loops to table-native data operations with Pandas. The goal is to think in columns and vectorized transforms.
+This module transitions from plain Python loops to table-native data operations with Pandas.
 
 **Learning path:** This is step 6 in [00-START-HERE.md](00-START-HERE.md). Previous: [05-Portfolio-US-Medical-Insurance.md](05-Portfolio-US-Medical-Insurance.md). Next: [07-Exploratory-Data-Analysis.md](07-Exploratory-Data-Analysis.md).
 
 ---
 
-## Learning outcomes
+## Codecademy subsections (exact order)
 
-After this unit, you should be able to:
+### 1) Introduction to Python Pandas for ML/AI Engineering
 
-- Load tabular data into DataFrames reliably.
-- Inspect shape, schema, nulls, and basic distributions.
-- Filter, select, and transform columns safely.
-- Group and aggregate data to answer specific questions.
-- Apply simple lambda functions and custom transforms.
+- Big ideas:
+- What changed from plain Python:
 
----
+### 2) Lambda Functions for Pandas
 
-## 1. DataFrame basics
+- Useful lambda patterns:
+- When not to use lambda:
 
-- `read_csv`, `head`, `info`, `describe`.
-- Rows, columns, index behavior.
-- Selecting with `loc` and `iloc`.
+### 3) Hands-On with Pandas
 
-_Notes and examples:_
+- DataFrame operations practiced:
+- My most useful snippets:
 
----
+### 4) Aggregates in Pandas
 
-## 2. Cleaning and transformation
+- Grouping logic:
+- Aggregate functions and interpretation:
 
-- Type conversion and parsing.
-- Missing value handling strategy.
-- String cleanup with vectorized methods.
-- Creating derived features.
+### 5) Multiple Tables in Pandas
 
-_Notes and examples:_
+- Merge/join patterns:
+- Join keys and data-quality checks:
 
----
+### 6) Data Manipulation Challenge Project
 
-## 3. Grouping and summarizing
-
-- `groupby` + aggregate patterns.
-- Multiple aggregations and renaming columns.
-- Sorting summaries for readability.
-
-_Notes and examples:_
-
----
-
-## 4. Lambda and apply patterns
-
-- When lambda is helpful.
-- When vectorized alternatives are better.
-- Common anti-patterns that slow analysis.
-
-_Notes and examples:_
-
----
-
-## 5. Mini exercises
-
-- Exercise 1:
-- Exercise 2:
-- Exercise 3:
+- Project goal:
+- Steps I took:
+- Final result and reflection:
 
 ---
 

@@ -1,69 +1,41 @@
 # Exploratory Data Analysis in Python
 
-EDA is where you profile data quality, discover patterns, and decide what deserves deeper modeling. Treat this file as your repeatable EDA checklist.
+EDA is where you profile data quality, discover patterns, and decide what deserves deeper modeling.
 
 **Learning path:** This is step 7 in [00-START-HERE.md](00-START-HERE.md). Previous: [06-Python-Pandas.md](06-Python-Pandas.md). Next: [08-Math-Statistics.md](08-Math-Statistics.md).
 
 ---
 
-## Learning outcomes
+## Codecademy subsections (exact order)
 
-After this unit, you should be able to:
+### 1) Introduction to EDA
 
-- Build a quick but complete first-pass profile of a dataset.
-- Spot outliers, skew, and missingness patterns.
-- Compare distributions across key categories.
-- Generate visuals that actually inform decisions.
-- Capture assumptions and hypotheses for later modeling.
+- What EDA is for:
+- Questions to answer before modeling:
 
----
+### 2) Variable Types
 
-## 1. EDA workflow
+- Numeric vs categorical:
+- Type conversion decisions:
+- Type-related pitfalls:
 
-1. Frame the analysis question.
-2. Audit data shape and quality.
-3. Explore univariate distributions.
-4. Explore bivariate and grouped relationships.
-5. Record hypotheses and next actions.
+### 3) Inspect, Clean, and Validate a Dataset
 
----
+- Missing values:
+- Outliers and invalid values:
+- Validation checks performed:
 
-## 2. Data quality checks
+### 4) Summarizing a Single Feature
 
-- Missing data by column and segment.
-- Duplicates and inconsistent labels.
-- Unit mismatches and impossible values.
+- Distribution notes:
+- Center/spread takeaways:
+- Visualization used:
 
-_Notes and examples:_
+### 5) Summarizing the Relationship between Two Features
 
----
-
-## 3. Distribution analysis
-
-- Histograms and box plots.
-- Median vs mean interpretation.
-- Skew and transformation ideas.
-
-_Notes and examples:_
-
----
-
-## 4. Relationship analysis
-
-- Correlation review with caution.
-- Category comparisons with grouped summaries.
-- Initial feature relevance signals.
-
-_Notes and examples:_
-
----
-
-## 5. EDA conclusion template
-
-- Biggest quality risks:
-- Most likely predictive signals:
-- Unresolved assumptions:
-- Next experiment/modeling step:
+- Feature pair analyzed:
+- Relationship pattern observed:
+- Why this matters for modeling:
 
 ---
 

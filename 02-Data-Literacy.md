@@ -2,17 +2,32 @@
 
 ## Establishing how to think about data will set you up for success when you start analyzing it.
 
-### How this note is organized (Codecademy)
+## Codecademy subsections (exact order)
 
-The sections below follow the same sequence as Codecademy’s Data Literacy material:
+### 1) Introduction to Data
 
-1. [Data Gaps](#data-gaps)
-2. [Addressing Bias](#addressing-bias)
-3. [What is Statistics?](#what-is-statistics)
-4. [Statistics At Work](#statistics-at-work)
-5. [High Stakes Visualizations](#high-stakes-visualizations)
-6. [The Challenger Visualizations](#the-challenger-visualizations)
-7. [Numeracy](#numeracy)
+- Data Gaps
+- Addressing Bias
+
+### 2) Thinking about Data
+
+- What is Statistics?
+- Statistics At Work
+- Numeracy
+
+### 3) Visualizing Data
+
+- High Stakes Visualizations
+- The Challenger Visualizations
+
+### 4) Analyzing Data
+
+- Causal Analysis and John Snow's cholera theory: Part 1
+- Causal Analysis and John Snow's cholera theory: Part 2
+
+---
+
+### Detailed notes
 
 ### Data literacy topics
 

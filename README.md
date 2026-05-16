@@ -6,6 +6,8 @@ Follow the learning order below for a clean flow.
 
 **Start here:** [00-START-HERE.md](00-START-HERE.md)
 
+**How to take notes:** [NOTES-GUIDE.md](NOTES-GUIDE.md)
+
 ## Modules in order
 
 1. [Welcome to Machine Learning/AI Engineering Foundations](01-Welcome-ML-AI-Foundations.md)

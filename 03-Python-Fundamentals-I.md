@@ -1,82 +1,54 @@
 # Python Fundamentals for ML/AI Engineers (Part I)
 
-Part I focuses on core syntax and small programs: how Python represents information, how control flows, and how to package logic in functions. These skills are prerequisites for data work in Pandas (Part II builds on this file with more Python for ML prep).
+Part I focuses on core syntax and small programs: how Python represents information, how control flows, and how to package logic in functions.
 
 **Learning path:** This is step 3 in [00-START-HERE.md](00-START-HERE.md). Next: [04-Python-Fundamentals-II.md](04-Python-Fundamentals-II.md).
 
 ---
 
-## Learning outcomes (Part I)
+## Codecademy subsections (exact order)
 
-After working through this unit, you should be able to:
+### 1) Welcome to Python Fundamentals for Machine Learning/AI Engineering (Part I)
 
-- Run Python in a consistent environment (script or notebook) and read tracebacks without panic.
-- Use variables, built-in types, and operators correctly (numbers, strings, booleans, type quirks that bite beginners).
-- Control program flow with conditionals and loops, including iterating over common structures.
-- Define and call functions with parameters, return values, and sensible scope habits.
-- Use lists (and basic sequences) to hold and transform data—the shape most tabular code builds on later.
+- Key takeaways:
+- What this unit expects you to know already:
 
----
+### 2) Python Syntax and Variable Types
 
-## 1. Environment and running code
+- Core syntax rules:
+- Variable naming / assignment patterns:
+- Types and conversion notes:
+- Mistakes I made and fixes:
 
-- Interpreter vs script vs notebook (when each is appropriate for ML notes).
-- `python`, `pip`, virtual environments (short checklist—you will reuse this setup for Pandas).
+### 3) Python Functions
 
-_Add your commands, paths, and gotchas here._
+- Function patterns that clicked:
+- Parameters, return values, and scope reminders:
+- Reusable helper functions from exercises:
 
----
+### 4) Python Control Flow
 
-## 2. Variables, types, and operators
+- `if` / `elif` / `else` patterns:
+- Truthy/falsy gotchas:
+- Decision logic examples:
 
-- Assignment, naming, and mutability (what “rebinding” means).
-- `int`, `float`, `str`, `bool`; safe conversion with `int()`, `float()`, `str()`.
-- Arithmetic, comparisons, logical `and` / `or` / `not`.
-- Common pitfalls: integer division, floating-point rounding, string vs number concatenation.
+### 5) Python Lists
 
-_Notes and examples:_
+- List operations to remember:
+- Slice/index tricks:
+- When list comprehension is clearer:
 
----
+### 6) Python Loops
 
-## 3. Strings and basic text handling
+- `for` loop patterns:
+- `while` loop patterns:
+- `break` / `continue` use cases:
 
-- Literals, quotes, escaping, multiline strings.
-- Indexing, slicing, immutability.
-- Useful methods: `strip`, `lower`, `split`, `join`, `replace` (patterns you will use when cleaning text features later).
+### 7) Getting Started Off Platform
 
-_Notes and examples:_
-
----
-
-## 4. Control flow
-
-- `if` / `elif` / `else`; truthiness; guarding against empty inputs.
-- `for` loops, `range`, iterating over strings and lists.
-- `while` loops and termination conditions.
-- `break`, `continue`, and when *not* to use them.
-
-_Notes and examples:_
-
----
-
-## 5. Functions
-
-- Defining functions, parameters, default arguments, keyword arguments.
-- Return values vs side effects; why “pure” functions are easier to test.
-- Docstrings and naming for future-you.
-
-_Notes and examples:_
-
----
-
-## 6. Lists and sequences (Part I scope)
-
-- Creating, indexing, slicing, copying (alias vs copy).
-- Methods: `append`, `extend`, `pop`, `sort` vs `sorted`.
-- List comprehensions as readable one-pass transforms (intro level).
-- Optional touchpoint: tuples as fixed records; when lists are still the right default.
-
-_Notes and examples:_
+- Local environment commands:
+- Folder/project setup:
+- Running scripts and debugging locally:
 
 ---
 

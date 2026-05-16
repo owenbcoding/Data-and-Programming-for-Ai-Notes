@@ -16,6 +16,22 @@ Build and present an end-to-end analysis that demonstrates:
 
 ---
 
+## Codecademy subsections (exact order)
+
+### 1) ML/AI Engineer Foundations: Final Portfolio
+
+- Project scope:
+- Deliverables completed:
+- Final artifact links:
+
+### 2) Next Steps after ML/AI Engineering Foundations
+
+- Skills to deepen next:
+- Portfolio improvements planned:
+- Next course/project:
+
+---
+
 ## Suggested project structure
 
 1. Problem framing and dataset context.

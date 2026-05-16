@@ -1,68 +1,36 @@
 # Math and Statistics for ML/AI Engineers
 
-This module is the foundation for understanding why ML methods work, not just how to call them. Focus on intuition first, formulas second.
+This module is the foundation for understanding why ML methods work, not just how to call them.
 
 **Learning path:** This is step 8 in [00-START-HERE.md](00-START-HERE.md). Previous: [07-Exploratory-Data-Analysis.md](07-Exploratory-Data-Analysis.md). Next: [09-Final-Portfolio.md](09-Final-Portfolio.md).
 
 ---
 
-## Learning outcomes
+## Codecademy subsections (exact order)
 
-After this unit, you should be able to:
+### 1) Probability for ML/AI Engineers
 
-- Explain core probability ideas used in model uncertainty.
-- Use summary statistics and distributions to reason about data.
-- Interpret key linear algebra concepts behind vectorized ML.
-- Connect statistical thinking to model evaluation choices.
+- Core probability concepts:
+- Practice examples:
+- Confusions to revisit:
 
----
+### 2) Sampling for ML/AI Engineers
 
-## 1. Probability foundations
+- Sampling methods:
+- Sampling bias risks:
+- Inference takeaways:
 
-- Events, sample spaces, and conditional probability.
-- Independence and Bayes-style reasoning.
-- Discrete distributions used in ML contexts.
+### 3) Linear Algebra
 
-_Notes and examples:_
+- Vector/matrix concepts:
+- Dot product and matrix multiplication notes:
+- Why this matters in ML:
 
----
+### 4) Differential Calculus
 
-## 2. Statistics fundamentals
-
-- Mean, median, variance, standard deviation.
-- Sampling distributions and central limit intuition.
-- Confidence and significance at a practical level.
-
-_Notes and examples:_
-
----
-
-## 3. Linear algebra essentials
-
-- Vectors, matrices, and shape reasoning.
-- Dot products and geometric interpretation.
-- Matrix operations in data pipelines.
-
-_Notes and examples:_
-
----
-
-## 4. Connecting math to ML practice
-
-- Feature spaces and distances.
-- Why gradients and optimization matter.
-- How statistical assumptions affect model trust.
-
-_Notes and examples:_
-
----
-
-## 5. Quick reference
-
-- Probability:
-- Statistics:
-- Linear algebra:
-- Evaluation metrics:
+- Derivative intuition:
+- Gradient notes:
+- Optimization connections:
 
 ---
 
