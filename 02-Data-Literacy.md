@@ -19,51 +19,13 @@ Detailed lesson notes for this subsection:
 - Data Gaps
 - Addressing Bias
 
-# Data Types and Quality
-
-## Lesson: Data Types and Quality
-
-### Introduction to Data Types and Quality
-- 
-
-### The Shape of Data
-- 
-
-### Variable Types
-- 
-
-### Dealing with Messy Data
-- 
-
-### Working with Missing Data
-- 
-
-### Accuracy
-- 
-
-### Validity
-- 
-
-### Representative Samples
-- 
-
-### Review of Data Types and Quality
-- Key takeaways:
-- What I still need to revise:
-
-## Quiz: Data Types and Quality
-- Score:
-- Questions missed:
-- Why I missed them:
-- Correct rule/concept:
-
 ### 2) Thinking about Data
 
-From your course structure:
+From your course structure (`1 Lesson, 1 Quiz, 1 Article`):
 
-- Lesson: What is Statistics?
+- Lesson: What is Statistics? / Numeracy *(both topics are covered inside this single lesson)*
 - Article: Statistics At Work
-- Lesson: Numeracy
+- Quiz: Thinking about Data
 
 Detailed lesson notes for this subsection:
 
@@ -71,29 +33,50 @@ Detailed lesson notes for this subsection:
 - Statistics At Work
 - Numeracy
 
+#### Quiz: Thinking about Data
+- Score:
+- Questions missed:
+- Why I missed them:
+- Correct rule/concept:
+
 ### 3) Visualizing Data
 
-From your course structure:
+From your course structure (`2 Lessons, 1 Quiz, 1 Article`):
 
 - Lesson: High Stakes Visualizations
-- Article: The Challenger Visualizations
+- Lesson: The Challenger Visualizations
+- Article: *(supplementary visualization reading)*
+- Quiz: Visualizing Data
 
 Detailed lesson notes for this subsection:
 
 - High Stakes Visualizations
 - The Challenger Visualizations
 
+#### Quiz: Visualizing Data
+- Score:
+- Questions missed:
+- Why I missed them:
+- Correct rule/concept:
+
 ### 4) Analyzing Data
 
-From your course structure:
+From your course structure (`1 Lesson, 1 Article, 1 Quiz`):
 
 - Lesson: Causal Analysis and John Snow's cholera theory: Part 1
 - Article: Causal Analysis and John Snow's cholera theory: Part 2
+- Quiz: Analyzing Data
 
 Detailed lesson notes for this subsection:
 
 - Causal Analysis and John Snow's cholera theory: Part 1
 - Causal Analysis and John Snow's cholera theory: Part 2
+
+#### Quiz: Analyzing Data
+- Score:
+- Questions missed:
+- Why I missed them:
+- Correct rule/concept:
 
 ---
 
@@ -175,6 +158,84 @@ Part of practicing good data literacy means asking:
 The timeline below lines up key moments in this story—from thalidomide and the 1977 FDA guidance through later shifts in trial policy—so you can see how policy and data collection evolved together.
 
 ![Timeline of clinical trial policy and related history](images/addressing-bias/timeline.svg)
+
+# Data Types and Quality
+
+## Lesson: Data Types and Quality
+
+### Introduction to Data Types and Quality
+- Data quality determines how trustworthy any analysis or model will be.
+- Four key quality dimensions: **accuracy**, **validity**, **completeness**, and **representativeness**.
+- Before modelling, always profile your dataset: shape, dtypes, missing value counts, and value ranges.
+
+### The Shape of Data
+- **Tabular data** is organised into rows (observations / records) and columns (variables / features).
+- `df.shape` → `(rows, columns)` — the first sanity check on any new dataset.
+- **Wide format:** each row is one subject, each column is one measurement (common in ML feature tables).
+- **Long format:** one row per observation per variable (common in time-series and Pandas `melt()`).
+- Tidy data rule: one variable per column, one observation per row, one value per cell.
+
+### Variable Types
+- **Quantitative (numerical):** measurable amounts.
+  - *Continuous* — any value in a range (height, temperature, salary).
+  - *Discrete* — countable whole numbers (number of siblings, page count).
+- **Qualitative (categorical):** labels or groups.
+  - *Nominal* — no natural order (colour, country, blood type).
+  - *Ordinal* — has a meaningful order but gaps between ranks are unequal (education level: high school < bachelor's < master's).
+- Knowing the type tells you which statistics and charts are valid:
+  - Nominal → bar chart, mode.
+  - Ordinal → bar chart, median.
+  - Continuous → histogram, mean, standard deviation.
+
+### Dealing with Messy Data
+- **Duplicates:** `df.duplicated().sum()` — drop with `df.drop_duplicates()`.
+- **Inconsistent strings:** `"Male"`, `"male"`, `"M"` all mean the same thing → normalise with `.str.lower().str.strip()`.
+- **Wrong data types:** a numeric column stored as `object` breaks aggregations → cast with `pd.to_numeric()` or `.astype()`.
+- **Outliers:** values far outside the expected range. Options: cap, remove, or flag with a boolean column. Always investigate *why* the outlier exists before deleting.
+- **Mixed formats:** dates as `"01/06/2024"` vs `"June 1, 2024"` → parse with `pd.to_datetime(format=...)`.
+
+### Working with Missing Data
+- Missing data shows up as `NaN` (Not a Number) in Pandas.
+- `df.isnull().sum()` — count missing values per column.
+- `df.isnull().mean() * 100` — percentage missing per column (quick health check).
+- **Three common strategies:**
+  1. **Drop** — `df.dropna()` — safe only when missingness is random and few rows are affected.
+  2. **Impute with a statistic** — fill with mean (numerical) or mode (categorical): `df.fillna(df['col'].mean())`.
+  3. **Flag then fill** — add a `col_was_missing` boolean column *before* imputing so the model can learn from the pattern.
+- **MCAR / MAR / MNAR** — Missing Completely At Random / At Random / Not At Random. MNAR is most dangerous because the fact that it's missing *is* informative.
+
+### Accuracy
+- **Accuracy** = the data value matches the real-world value.
+- Inaccurate data often comes from manual entry errors, sensor faults, or unit mismatches (cm vs inches).
+- Quick checks: compare min/max to plausible ranges, cross-reference against a trusted source.
+- Example: a patient recorded as 7 feet 2 inches when they are 5 feet 2 inches — possible data entry error (7 vs 5).
+
+### Validity
+- **Validity** = the data value is a legal value for that variable.
+- A valid value can still be inaccurate (e.g. a valid age of 25 entered for a 35-year-old).
+- Enforce validity with constraints: age ≥ 0, email contains `@`, category values in an allowed set.
+- In Python: `df['age'].between(0, 120).all()` is a simple validity check.
+
+### Representative Samples
+- A **representative sample** mirrors the distribution of the full population you want to study.
+- An unrepresentative sample causes **sampling bias** — conclusions will not generalise.
+- Example: surveying only university students about average income would underestimate the national mean.
+- Strategies to improve representativeness: stratified sampling (sample each subgroup proportionally), random sampling, oversampling underrepresented groups.
+- Always ask: **who is in this dataset, and who is missing?**
+
+### Review of Data Types and Quality
+- Key takeaways:
+  - Identify variable type first → it dictates every downstream analysis choice.
+  - Profile missing data before modelling — impute thoughtfully, not blindly.
+  - Accuracy and validity are different: both must be checked.
+  - A representative sample is the foundation of a generalisable model.
+- What I still need to revise: MNAR imputation strategies, advanced outlier detection (IQR method, z-score).
+
+## Quiz: Data Types and Quality
+- Score:
+- Questions missed:
+- Why I missed them:
+- Correct rule/concept:
 
 # What is Statistics?
 
@@ -302,10 +363,7 @@ Dr. Snow also found that a workhouse and a brewery near the pump both had few or
 
 Snow advised that the handle be taken off the Broad Street pump to prevent people from drinking the contaminated water. The handle was removed, and this action coincided with the end of that outbreak. The number of deaths was already trailing off (more than 75% of residents had left the area to avoid “choleric vapors”), but this public health intervention prevented the disease from recurring as people returned, and the epidemic ended.
 
-The built-in test cases helped Snow to isolate 
-variables
-Preview: Docs Loading link description
- and prove that the key variable was that people who developed cholera had drunk water from the contaminated pump. From there, repeated studies of cholera and modern lab experiments have only confirmed the causal link he discovered.
+The built-in test cases helped Snow isolate variables and prove that the key variable was that people who developed cholera had drunk water from the contaminated pump. From there, repeated studies of cholera and modern lab experiments have only confirmed the causal link he discovered.
 
 In modern lab science, we use controlled experiments to isolate variables and prove causation. Controlled experiments are often not possible outside of lab settings, though, so data scientists do the best they can to isolate and control variables and get comfortable working with some amount of error.
 
