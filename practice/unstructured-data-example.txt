@@ -1,0 +1,30 @@
+Customer Review #1:
+"I bought this product last week and I'm really disappointed. The quality is terrible and it broke after just two days. Customer service was unhelpful when I tried to return it. Would not recommend to anyone."
+
+Customer Review #2:
+"Amazing product! Exactly what I was looking for. Fast shipping and great customer support. The quality exceeded my expectations. Will definitely buy again."
+
+Customer Review #3:
+"It's okay for the price. Not the best quality but gets the job done. Shipping took longer than expected but arrived in good condition."
+
+Customer Review #4:
+"Worst purchase ever! Complete waste of money. The description was misleading and the product looks nothing like the pictures. Avoid this seller."
+
+Email Thread:
+From: customer@example.com
+Subject: Return Request
+Date: 2023-08-15
+
+Hi, I'd like to return the item I ordered last week. The order number is #12345. The product arrived damaged and I'd like a refund.
+
+From: support@company.com
+Subject: Re: Return Request
+Date: 2023-08-16
+
+Hello, I'm sorry to hear about the damaged product. I can help process your return. Could you please send photos of the damage and your order confirmation?
+
+From: customer@example.com
+Subject: Re: Return Request
+Date: 2023-08-16
+
+Attached are the photos. Here's my order confirmation: #12345, purchased on 2023-08-10 for $49.99.
