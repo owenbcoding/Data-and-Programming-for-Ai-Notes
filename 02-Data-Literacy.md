@@ -331,6 +331,95 @@ Tufte’s reorganization of the launch data (temperature on one axis, clearer gr
 
 # Numeracy
 
+## Lesson: Statistical Thinking
+
+Let’s imagine we are working for the city government of the fictional city of Melody Metropolis. The mayor of Melody Metropolis wants to know more about the musicians who currently live in the city. The learning environment shows a dataset we have on musicians living in the city as of last year. How would you describe this dataset? See if you can answer any of the following questions:
+
+What does a typical musician’s income look like?
+Is there a wide range of musician ages?
+What proportion of the musicians in the dataset play guitar?
+We can try to make generalizations by looking over the rows and columns, but it’s difficult to answer these questions precisely. We need some kind of “data vocabulary” that can help us measure and describe the 
+variables
+Preview: Docs Loading link description
+ in the dataset. Summary statistics can be used for exactly this purpose!
+
+With a basic understanding of summary 
+statistics
+Preview: Docs Statistics is the science that is concerned with methods for collecting, organizing, analyzing, and interpreting data.
+, we can communicate and understand a lot more specific information about the musicians in the city. But learning statistics is often associated with a lot of negativity:
+
+Memorization of lots of math formulas
+Long calculations done by hand
+Confusing or meaningless interpretations
+None of these struggles need to be part of learning to use statistics. In this lesson, we’ll gain a conceptual understanding of how summary statistics can easily help us communicate and interpret our dataset.
+
+Before moving to the next exercise, familiarize yourself with the following names and descriptions of the variables in the dataset:
+
+age: age in years
+income: yearly income in US dollars
+title: primary job title
+experience: years of experience in the field of music
+instrument: primary instrument
+band: whether in a band (1 = yes, 0 = no)
+What are you interested in learning about the musicians of Melody Metropolis?
+
+### Introduction to Statistical Thinking
+- **Statistical thinking** is the ability to understand and critically evaluate statistical arguments and data.
+- It involves asking the right questions about data, understanding uncertainty, and recognizing patterns vs. random variation.
+- Key skill: distinguishing between correlation and causation.
+
+### Types of Statistical Questions
+- **Descriptive statistics**: What does the data look like? (mean, median, mode, standard deviation)
+- **Inferential statistics**: What can we conclude from the data? (hypothesis testing, confidence intervals)
+- **Predictive statistics**: What will happen next? (regression, machine learning)
+
+### Key Statistical Concepts
+- **Variation**: Data naturally varies; understanding this variation is crucial.
+- **Randomness**: Not all variation is meaningful; some is due to chance.
+- **Sample vs. Population**: We often study samples to make inferences about populations.
+- **Bias**: Systematic errors that can lead to incorrect conclusions.
+
+### Statistical Literacy in Everyday Life
+- **News headlines**: "Eating chocolate makes you smarter" - correlation ≠ causation
+- **Medical studies**: Understanding relative vs. absolute risk
+- **Polls and surveys: Margins of error and confidence intervals
+- **Financial data**: Understanding averages vs. medians in income reports
+
+### Common Statistical Fallacies
+- **Correlation implies causation**: Just because two things are related doesn't mean one causes the other.
+- **The gambler's fallacy**: Thinking that past random events affect future ones.
+- **Survivor bias**: Drawing conclusions from those who "survived" a process, ignoring those who didn't.
+- **Base rate fallacy**: Ignoring the underlying probability when evaluating specific evidence.
+
+### Statistical Thinking Process
+1. **Formulate the question**: What exactly are we trying to learn?
+2. **Collect data**: Ensure data is relevant and representative.
+3. **Analyze data**: Use appropriate statistical methods.
+4. **Interpret results**: Consider limitations and alternative explanations.
+5. **Communicate findings**: Present results clearly and honestly.
+
+### Practical Applications
+- **Business**: A/B testing, customer segmentation, sales forecasting
+- **Healthcare**: Clinical trials, disease outbreak tracking, treatment effectiveness
+- **Sports**: Player performance analysis, strategy optimization
+- **Public policy**: Evaluating program effectiveness, resource allocation
+
+### Statistical Tools and Concepts
+- **Measures of center**: Mean, median, mode - when to use each
+- **Measures of spread**: Range, interquartile range, standard deviation
+- **Distributions**: Normal distribution, skewed distributions
+- **Probability**: Basic rules, conditional probability
+- **Sampling**: Random sampling, stratified sampling, sampling bias
+
+### Critical Questions to Ask
+- What is the source of the data?
+- How was the data collected?
+- What is the sample size?
+- Are there any outliers?
+- What assumptions are being made?
+- What are the limitations of the analysis?
+- Could there be alternative explanations?
+
 **Numeracy** is the comfort and skill you use when working with numbers in context—not just doing arithmetic, but knowing *what* a number means and whether it is the right number for the question. It supports everything earlier in this note: interpreting headlines about percentages in trials, judging whether a gap in data is large or small, and reading axes and scales on charts without being misled.
 
 In practice, numeracy shows up when you check whether a fraction and a percent tell the same story, estimate orders of magnitude, notice when units are missing or inconsistent, and ask whether a claim is based on counts, rates, or both. Pair those habits with the questions from the **Data Gaps** and **Addressing Bias** sections, and you have a solid foundation for the statistical and visualization ideas that follow.
