@@ -359,8 +359,6 @@ None of these struggles need to be part of learning to use statistics. In this l
 - `instrument`: primary instrument
 - `band`: whether in a band (1 = yes, 0 = no)
 
-What are you interested in learning about the musicians of Melody Metropolis?
-
 ---
 
 ### Supplementary: Statistical Thinking Fundamentals
